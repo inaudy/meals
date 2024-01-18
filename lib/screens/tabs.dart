@@ -48,8 +48,9 @@ class _TabsScreenState extends State<TabsScreen> {
 
   void _setScreen(String identifier) {
     if (identifier == 'filters') {
+    } else {
       Navigator.of(context).pop();
-    } else {}
+    }
   }
 
   @override
